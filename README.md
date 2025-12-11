@@ -76,7 +76,7 @@ Copy code
 ## 🌍 Live Demo  
 After enabling GitHub Pages, your project will be visible here:
 
-https://your-username.github.io/live-clock-dashboard/
+https://arybhatt4533.github.io/live-clock-dashboard/
 
 yaml
 Copy code
