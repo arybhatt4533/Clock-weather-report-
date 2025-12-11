@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Live Clock & Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="background-animation"></div>
+
+<!-- SMALL QUOTE above the digital clock -->
+<p class="quote">Make every moment count.</p>
+
+<h1 class="digital-clock" id="digitalClock">00:00:00</h1>
+
+<div class="dashboard">
+
+    <div class="card analog-card">
+        <div class="analog-clock">
+            <div class="hand hour" id="hourHand"></div>
+            <div class="hand minute" id="minuteHand"></div>
+            <div class="hand second" id="secondHand"></div>
+            <div class="center-dot"></div>
+        </div>
+    </div>
+
+    <div class="card weather-card">
+        <h2>Weather</h2>
+        <div class="weather-icon">⛅</div>
+        <h3 id="temp">25°C</h3>
+        <p id="desc">Partly Cloudy</p>
+        <p class="small" id="hum">Humidity: 45%</p>
+        <p class="small" id="wind">Wind: 3 km/h</p>
+    </div>
+
+</div>
+
+<!-- NEON NAME at the bottom -->
+<div class="neon-name">ARYABHATT</div>
+
+<script src="script.js"></script>
+</body>
+</html>
